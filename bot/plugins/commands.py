@@ -47,8 +47,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('⚜ our Group ⚜', url='https://t.me/noughtyland'),
-        InlineKeyboardButton('⚜ our  channel ⚜', url ='https://t.me/nougtyoffocialchannel')
+        InlineKeyboardButton('🔰 our Group 🔰', url='https://t.me/noughtyland'),
+        InlineKeyboardButton('🔰 our  channel 🔰', url ='https://t.me/nougtyoffocialchannel')
     ],[
         InlineKeyboardButton('🔰 our main channel 🔰', url='https://t.me/joinchat/UbU2tg-IWek5NjRl')
     ],[

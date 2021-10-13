@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰 our group 🔰', url="https://t.me/noughtyland"
                                 )
                         ]
                     ]
@@ -48,7 +48,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('⚜ our Group ⚜', url='https://t.me/noughtyland'),
-        InlineKeyboardButton('⚜ our official channel ⚜', url ='https://t.me/nougtyoffocialchannel')
+        InlineKeyboardButton('⚜ our  channel ⚜', url ='https://t.me/nougtyoffocialchannel')
     ],[
         InlineKeyboardButton('🔰 our main channel 🔰', url='https://t.me/joinchat/UbU2tg-IWek5NjRl')
     ],[
@@ -92,7 +92,7 @@ async def about(bot, update):
     
     buttons = [[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('Close 🔒', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     

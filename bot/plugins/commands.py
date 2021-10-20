@@ -104,3 +104,8 @@ async def about(bot, update):
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
+await update.reply_photo(
+        "https://telegra.ph/file/1f31fa99a76640162efe3.jpg",
+        caption=START_TEXT.format(update.from_user.first_name),
+        reply_markup=reply_markup,
+    )

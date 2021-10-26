@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰 our group 🔰', url="https://t.me/noughtyland"
+                                    '🔰 share group 🔰', url="https://t.me/share/url?url=https://t.me/noughtyland"
                                 )
                         ]
                     ]
